@@ -1,0 +1,20 @@
+.prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+        margin: 32px;
+        padding: 20px;
+        background-color: #6fbdb97c;
+    }
+
+    .mov {
+        transition-property: all;
+        transition-duration: 0.4s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/* nombrar areas  */
+
+header {
+    grid-area: header;
+}
+
+
+.secgrid {
+    grid-area: section;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "section"
+        "main"
+        "footer";
+
+}
