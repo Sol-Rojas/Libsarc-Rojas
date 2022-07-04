@@ -10,11 +10,20 @@
     }
 
     .mov {
-        transition-property: all;
-        transition-duration: 0.4s;
+        @extend .transicion;
+        @include radius;
 
         &:hover {
             transform: scale(1.1);
         }
     }
+}
+
+.pago {
+    display: flex;
+    color: #194648;
+    background-color: $color-principal;
+    font-size: medium;
+    margin-bottom: 0;
+
 }

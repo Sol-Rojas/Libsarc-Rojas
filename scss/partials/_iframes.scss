@@ -1,7 +1,11 @@
 .formularioIframe {
-    padding: 50px;
-    margin: 5%;
-    font-size: 15px;
+    @extend .medidasFI;
+
+    @media(min-width:600px) {
+        padding: 20px;
+        margin: 5%;
+        font-size: 15px;
+    }
 
     iframe {
         width: 100%;

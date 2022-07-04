@@ -6,7 +6,7 @@ body {
 }
 
 footer {
-    background-color: rgb(77, 197, 197);
+    background-color: map-get($colores, "headerf");
     display: flex;
     justify-content: center;
     padding-bottom: 0;
@@ -15,6 +15,12 @@ footer {
 
 .mapa {
     width: 70%;
+    @include radius(rgba(121, 196, 183, 0.527));
+
+    @media(min-width:1200px) {
+        width: 600px;
+        height: 600px;
+    }
 }
 
 p {

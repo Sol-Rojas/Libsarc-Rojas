@@ -5,7 +5,7 @@
     font-size: 20px;
 
     h1 {
-        color: antiquewhite;
+        color: map-get($colores, "antiwhite");
         font-size: 20px;
     }
 }

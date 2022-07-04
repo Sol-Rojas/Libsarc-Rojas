@@ -3,8 +3,10 @@
     padding: 0;
 }
 
+@import './base/vars';
+@import './base/extend';
+@import './base/mixins';
 @import 'partials/header';
-@import 'partials/vars';
 @import 'partials/indexbox';
 @import 'partials/productos';
 @import 'partials/grid';
@@ -12,4 +14,3 @@
 @import 'partials/form';
 @import 'partials/iframes';
 @import 'partials/general';
-@import 'partials/mediaquery';

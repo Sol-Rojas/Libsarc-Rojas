@@ -1,8 +1,6 @@
 .formularioIframe {
+    @extend .medidasFI;
     background-color: $color-principal;
-    padding: 50px;
-    margin: 5%;
-    font-size: 15px;
 
     form {
         text-align: start;

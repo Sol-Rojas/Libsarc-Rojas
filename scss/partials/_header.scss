@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(77, 197, 197);
+    background-color: map-get($colores, "headerf");
 
     .color1 {
 
@@ -8,7 +8,7 @@ header {
         }
 
         a {
-            color: antiquewhite;
+            color: map-get($colores, "antiwhite");
 
             &:hover {
                 color: #98e9e5;
@@ -21,5 +21,29 @@ header {
             margin-bottom: 0px;
             list-style: none;
         }
+    }
+
+    .carrito {
+        right: 4rem;
+        top: 2rem;
+        position: fixed;
+
+        @media(max-width:575px) {
+            position: absolute;
+        }
+
+        .fondoTituloCarrito {
+            background-color: #66dbd0;
+            color: rgb(1, 124, 124);
+
+            h5 {
+                margin-left: 37%;
+            }
+        }
+
+        .fondoCarrito {
+            background-color: rgb(172, 240, 217);
+        }
+
     }
 }
