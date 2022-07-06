@@ -5,11 +5,17 @@ body {
     background-color: #93fff6;
 }
 
+.carousel {
+    @media(min-width: 1200px){
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
 footer {
     background-color: map-get($colores, "headerf");
     display: flex;
-    justify-content: center;
-    padding-bottom: 0;
+    justify-content: space-around;
     margin-bottom: 0;
 }
 

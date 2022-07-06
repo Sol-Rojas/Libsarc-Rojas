@@ -7,6 +7,13 @@
         margin: 32px;
         padding: 20px;
         background-color: #6fbdb97c;
+        h5 {
+            color: #194648
+        }
+
+        a{
+            align-items: flex-end
+        }
     }
 
     .mov {
@@ -21,9 +28,15 @@
 
 .pago {
     display: flex;
+    align-items: center;
     color: #194648;
     background-color: $color-principal;
-    font-size: medium;
     margin-bottom: 0;
+    h4{
+        font-size: 22px;
+        font-weight:lighter;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
 }
