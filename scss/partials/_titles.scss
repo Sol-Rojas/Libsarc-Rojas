@@ -1,10 +1,10 @@
 .titulos {
     background-color: #63dadaea;
-    padding: 20px 0;
     margin-top: 0;
     font-size: 20px;
 
     h1 {
+        padding:20px 0;
         color: map-get($colores, "antiwhite");
         font-size: 20px;
     }
@@ -19,5 +19,4 @@
 
 h5 {
     color: #e2f4f2;
-
 }
