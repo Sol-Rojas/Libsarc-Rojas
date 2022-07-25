@@ -15,7 +15,6 @@
 </head>
 
 <body class="grid-container">
-
     <header class="sticky-sm-top">
         <nav class="navbar navbar-expand-lg navbar color1 ">
             <div class="container-fluid ">
@@ -30,19 +29,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="flex2 navbar-nav m-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="../index.html">INICIO</a>
+                            <a class="nav-link" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="comprar.html">COMPRAR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./envios.html">ENVIOS</a>
+                            <a class="nav-link" href="./envios.html">Envios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./novedades.html">NOVEDADES</a>
+                            <a class="nav-link" href="./novedades.html">Novedades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./preguntas.html">Preguntas frecuentes</a>
                         </li>
                     </ul>
                 </div>
@@ -50,11 +52,16 @@
         </nav>
 
         <div class="carrito">
-            <button class="btn bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight"><img src="https://img.icons8.com/pastel-glyph/35/98e9e5/shopping-trolley--v2.png" alt="carrito"/>
-            </button>
-
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"aria-labelledby="offcanvasRightLabel">
+            <div class="searchh">
+                <input type="search" name="search" id="search" placeholder="Buscar..">
+                <button class="lupa" type="button"><img src="https://img.icons8.com/ios-filled/24/98e9e5/search--v1.png"></button>
+            </div>
+            <a class="maps" href="https://www.google.com.ar/maps">
+                <img src="https://img.icons8.com/ios/35/98e9e5/place-marker--v1.png/" alt="icono de ubicacion">
+            </a>
+            <button class="btn bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight"><img src="https://img.icons8.com/pastel-glyph/35/98e9e5/shopping-trolley--v2.png" alt="carrito" /></button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header fondoTituloCarrito">
                     <h5 id="offcanvasRightLabel">Mi carrito</h5>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"aria-label="Close"></button>
@@ -71,144 +78,188 @@
     </section>
 
     <main>
-        <section class="prod">
-            <div class="card" style="width: 14rem;">
+        <section class="prod ">
+            <div class="card card2">
                 <img src="../img/calculadora_edited.png" class="card-img-top mov" alt="calculadoras">
                 <div class="card-body">
                     <h5 class="card-title">Calculadora Cassio</h5>
-                    <p class="card-text">Calculadora científica 4 colores</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <p class="precios">$3.100</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/carpetas_edited.png" class="card-img-top mov" alt="carpetas">
                 <div class="card-body">
-                    <h5 class="card-title">Carpetas</h5>
-                    <p class="card-text">N°3 color pastel</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Carpetas N°3 color pastel</h5>
+                    <p class="precios">$500</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/cuadernos.jpg" class="card-img-top mov" alt="cuadernos">
                 <div class="card-body">
                     <h5 class="card-title">Cuaderno inteligente</h5>
-                    <p class="card-text">Sistema de discos 100 hojas rayadas</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <p class="precios">$2.300</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
-                <img src="../img/fabercastell_edited.png" class="card-img-top mov" alt="lapices">
+            <div class="card card2">
+                <img src="../img/lapices.webp" class="card-img-top mov" alt="lapices">
                 <div class="card-body">
                     <h5 class="card-title">Lápices Fabercastell</h5>
-                    <p class="card-text">Lápiz SuperSoft x100 Colores 6 Neón + 6 Pastel.</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <p class="precios">$1.800</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/filgo_edited.png" class="card-img-top mov" alt="resaltadores">
                 <div class="card-body">
-                    <h5 class="card-title">Resaltadores Filgo</h5>
-                    <p class="card-text">Resaltador fino pastel</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Resaltadores Filgo color pastel</h5>
+                    <p class="precios">$450</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/lamec_edited.png" class="card-img-top mov" alt="lapizMecanico">
                 <div class="card-body">
-                    <h5 class="card-title">Lápiz Pizzini</h5>
-                    <p class="card-text">Lápiz mecánico portaminas</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Lápiz mecánico</h5>
+                    <p class="precios">$210</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
-                <img src="../img/lapiceras-edited.png" class="card-img-top mov" alt="lapiceras">
+            <div class="card card2">
+                <img src="../img/lapiceras.jpg" class="card-img-top mov" alt="lapiceras">
                 <div class="card-body">
-                    <h5 class="card-title">Lapiceras Bic</h5>
-                    <p class="card-text">Lapiceras clic 8 colores</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Lapiceras Fabel Castell</h5>
+                    <p class="precios">$800</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/pizarras_edited.png" class="card-img-top mov" alt="pizarra">
                 <div class="card-body">
-                    <h5 class="card-title">Pizarra blanca</h5>
-                    <p class="card-text">Pizarra magnética 60x90</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Pizarra blanca 60x90</h5>
+                    <p class="precios">$2.200</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/repuesto.jpg" class="card-img-top mov" alt="hojas">
                 <div class="card-body">
-                    <h5 class="card-title">Repuesto de hojas</h5>
-                    <p class="card-text">Repuesto de hojas cuaderno inteligente</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Repuesto cuaderno int.</h5>
+                    <p class="precios">$280</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
-                <img src="../img/sharpie_edited.png" class="card-img-top mov" alt="marcadores">
+            <div class="card card2">
+                <img src="../img/sharpie.jpg" class="card-img-top mov" alt="marcadores">
                 <div class="card-body">
                     <h5 class="card-title">Marcadores Sharpie</h5>
-                    <p class="card-text">Marcadores x33 - Lluvia de colores</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <p class="precios">$8.000</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/calendario_edited.png" class="card-img-top mov" alt="calendario">
                 <div class="card-body">
-                    <h5 class="card-title">Calendario</h5>
-                    <p class="card-text">Calendario de pared-planificador</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Calendario de pared</h5>
+                    <p class="precios">$300</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
-            <div class="card" style="width: 14rem;">
+            <div class="card card2">
                 <img src="../img/abrochadora_edited.png" class="card-img-top mov" alt="abrochadora">
                 <div class="card-body">
-                    <h5 class="card-title">Abrochadora</h5>
-                    <p class="card-text">Abrochadora de escritorio 100 grapas de capacidad</p>
-                    <a href="#" class="btn btn-dark">Comprar</a>
+                    <h5 class="card-title">Abrochadora 100 grapas</h5>
+                    <p class="precios">$480</p>
                 </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
+            </div>
+            <div class="card card2">
+                <img src="../img/marcadorespizarra.png" class="card-img-top mov" alt="marcadores para pizarra">
+                <div class="card-body">
+                    <h5 class="card-title">Marcadores Trabi</h5>
+                    <p class="precios">$2.000</p>
+                </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
+            </div>
+            <div class="card card2">
+                <img src="../img/crayones.jpg" class="card-img-top mov" alt="crayones de colores">
+                <div class="card-body">
+                    <h5 class="card-title">Crayones Filgo</h5>
+                    <p class="precios">$250</p>
+                </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
+            </div>
+            <div class="card card2">
+                <img src="../img/pintura acrilica.png" class="card-img-top mov" alt="pinturas acrilicas">
+                <div class="card-body">
+                    <h5 class="card-title">Pinturas Acrilicas Eq Arte </h5>
+                    <p class="precios">$3.800</p>
+                </div>
+                <a href="#" class="btn btn-dark">Comprar</a>
             </div>
         </section>
-
-        <section class="pago">
-            <h4>Métodos de pago:</h4>
-            <div>
-                <a href="https://www.paypal.com/ar/home?locale.x=es_AR">
-                    <img src="https://img.icons8.com/color/50/000000/paypal.png" alt="iconoPaypal">
-                </a>
-            </div>
-            <div>
-                <a href="https://www.mercadopago.com.ar/home">
-                    <img src="https://img.icons8.com/color/60/000000/mercado-pago.png" alt="iconoMercadopago">
-                </a>
-            </div>
-        </section>
-
     </main>
 
 
     <footer>
-        <div>
-            <a href="https://api.whatsapp.com/send/?phone=5491144948424&text&app_absent=0">
-                <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="iconoWhatsapp">
-            </a>
+        <div class="web-map">
+            <ul>
+                <li class="text">Visita nuestro local</li>
+                <li class="text">Lunes a viernes de 8 a 18hs.</li>
+            </ul>
+            <ul class="links">
+                <li class="text">ACERCA DE LIBSARC</li>
+                <li class="small-link">Privacidad y terminos</li>
+                <li class="small-link">Centro de ayuda</li>
+                <li class="small-link">Preferencias</li>
+            </ul>
         </div>
-        <div>
-            <a href="https://www.instagram.com/sol.rojaass/">
-                <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="iconoInstagram">
-            </a>
+        <div class="social-icons">
+            <h5 class="text">Métodos de pago</h5>
+            <ul>
+                <li>
+                    <a href="https://www.paypal.com/ar/home?locale.x=es_AR">
+                        <img src="https://img.icons8.com/color/50/000000/paypal.png" alt="icono Paypal">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.mercadopago.com.ar/home">
+                        <img src="https://img.icons8.com/color/60/000000/mercado-pago.png" alt="icono Mercadopago">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="https://img.icons8.com/fluency/60/000000/mastercard.png" alt="icono Mastercard">
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div>
-            <a href="https://twitter.com/SolRojaass">
-                <img src="https://img.icons8.com/color/50/000000/twitter--v1.png" alt="iconoTwitter">
-            </a>
+        <div class="social-icons">
+            <h5 class="text">Síguenos</h5>
+            <ul>
+                <li>
+                    <a href="https://twitter.com/SolRojaass">
+                        <img class="twiterfb" src="https://img.icons8.com/ios-filled/50/93fff6/twitter-circled--v1.png"alt="icono Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com">
+                        <img class="twiterfb" src="https://img.icons8.com/glyph-neue/50/93fff6/facebook-new.png"alt="icono Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/sol.rojaass/">
+                        <img class="insta" src="https://img.icons8.com/glyph-neue/50/93fff6/instagram-new.png"alt="icono Instagram">
+                    </a>
+                </li>
+            </ul>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-
 </body>
-
 </html>

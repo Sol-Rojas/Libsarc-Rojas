@@ -1,0 +1,20 @@
+.accordion {
+    padding: 50px;
+
+    .accordion-item {
+        background-color: rgba(234, 236, 205, 0.808);
+        margin-bottom: 25px;
+        border: none;
+
+        .accordion-button {
+            background-color: rgb(158, 232, 235);
+            color: rgba(55, 63, 131, 0.815);
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+            &:hover {
+                background-color: map-get($colores, "antiwhite");
+            }
+        }
+    }
+}

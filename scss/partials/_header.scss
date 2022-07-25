@@ -2,6 +2,7 @@ header {
     background-color: map-get($colores, "headerf");
 
     .color1 {
+        box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.384);
 
         .navbar-toggler-icon {
             background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -13,6 +14,7 @@ header {
 
         a {
             color: map-get($colores, "antiwhite");
+            text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.678);
 
             &:hover {
                 color: #98e9e5;
@@ -27,13 +29,56 @@ header {
         }
     }
 
-    .carrito {
-        right: 4rem;
-        top: 2rem;
-        position: fixed;
+    .nav-item {
 
-        @media(max-width:575px) {
-            position: absolute;
+        @media(min-width:992px) {
+            margin-left: 30px;
+        }
+    }
+
+    .carrito {
+
+        display: flex;
+        margin: 10px;
+        justify-content: flex-end;
+
+        .searchh {
+            display: flex;
+            background-color: #9ae2e2;
+            padding: 6px;
+            border-radius: 5px;
+            margin: 0 auto;
+
+            &:hover {
+                border: 1px solid #90d3cdb6;
+            }
+
+            @media(max-width:649px) {
+                margin-left: 0;
+            }
+
+            .lupa {
+                background-color: #64c2bd;
+                border: solid 2px #64c2bd;
+
+                &:hover {
+                    box-shadow: 1px 1px 1px #539e9ace;
+                }
+            }
+
+            input {
+                padding-left: 4px;
+                border: none;
+
+                @media(min-width:650px) {
+                    width: 400px;
+                }
+            }
+        }
+
+        .maps {
+            margin-top: 8px;
+            padding-left: 10px;
         }
 
         .fondoTituloCarrito {
@@ -41,12 +86,13 @@ header {
             color: rgb(1, 124, 124);
 
             h5 {
+                color: rgb(80, 138, 128);
                 margin-left: 37%;
             }
         }
 
         .fondoCarrito {
-            background-color: rgb(172, 240, 217);
+            background-color: #acf0d9;
         }
 
     }

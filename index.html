@@ -15,7 +15,6 @@
 </head>
 
 <body class="grid-container">
-
   <header class="sticky-sm-top">
     <nav class="navbar navbar-expand-lg navbar color1 ">
       <div class="container-fluid ">
@@ -29,30 +28,36 @@
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
           <ul class="flex2 navbar-nav m-auto" id="col">
             <li class="nav-item ">
-              <a class="nav-link" href="./index.html">INICIO</a>
+              <a class="nav-link" href="index.html">INICIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./secciones/comprar.html">COMPRAR</a>
+              <a class="nav-link" href="./secciones/comprar.html">Comprar</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./secciones/contacto.html">CONTACTO</a>
+              <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./secciones/envios.html">ENVIOS</a>
+              <a class="nav-link" href="./secciones/envios.html">Envios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./secciones/novedades.html">NOVEDADES</a>
+              <a class="nav-link" href="./secciones/novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./secciones/preguntas.html">Preguntas frecuentes</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
     <div class="carrito">
-      <button class="btn bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight"><img src="https://img.icons8.com/pastel-glyph/35/98e9e5/shopping-trolley--v2.png" alt="carrito" />
-      </button>
-
+      <div class="searchh">
+        <input type="search" name="search" id="search" placeholder="Buscar..">
+        <button class="lupa" type="button"><img src="https://img.icons8.com/ios-filled/24/98e9e5/search--v1.png"></button>
+      </div>
+      <a class="maps" href="https://www.google.com.ar/maps">
+        <img src="https://img.icons8.com/ios/35/98e9e5/place-marker--v1.png/"  alt="icono de ubicacion">
+      </a>
+      <button class="btn bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"aria-controls="offcanvasRight"><img src="https://img.icons8.com/pastel-glyph/35/98e9e5/shopping-trolley--v2.png"alt="carrito" /></button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
         <div class="offcanvas-header fondoTituloCarrito">
           <h5 id="offcanvasRightLabel">Mi carrito</h5>
@@ -67,19 +72,18 @@
 
   <section class=" secgrid">
     <div class="titulos">
-      <h1>BIENVENID@</h1>
+      <h1>Bienvenido a Libsarc</h1>
     </div>
-    <p>¡Siguenos y contactanos a traves de nuestras <a href="#pie" class="redes"> redes sociales</a>!</p>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/banner1.jpg" class="d-block w-100"  alt="banner1">
+          <img src="./img/banner1.jpg" class="d-block w-100" alt="Banner bienvenida">
         </div>
         <div class="carousel-item">
-          <img src="./img/banner2.png" class="d-block w-100" alt="banner2">
+          <img src="./img/banner2.png" class="d-block w-100" alt="Banner escritorio">
         </div>
         <div class="carousel-item">
-          <img src="./img/banner3.jpg" class="d-block w-100" alt="banner3">
+          <img src="./img/banner3.jpg" class="d-block w-100" alt="Banner utiles">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -94,95 +98,147 @@
   </section>
 
   <main>
-    <div class="indexsub">
-      <h2 class="titulod">Te puede interesar</h2>
-    </div>
+    <section class="spam">
+      <div>
+        <p class="intospam">ENVIOS A TODO BUENOS AIRES</p>
+        <p>Rápidos y seguros</p>
+        <img src="https://img.icons8.com/ios-filled/35/64c2bd/truck.png" />
+      </div>
+      <div>
+        <p class="intospam">SOPORTE ONLINE</p>
+        <p>Contáctanos mediante Whatsapp o redes sociales</p>
+        <img src="https://img.icons8.com/ios-filled/35/64c2bd/maintenance.png" />
+      </div>
+      <div>
+        <p class="intospam">PLATAFORMA SEGURA</p>
+        <p>Pagá y comprá con tranquilidad</p>
+        <img src="https://img.icons8.com/ios-filled/35/64c2bd/search-in-browser.png" />
+      </div>
+    </section>
+    <section class="indexsub">
+      <h5 class="titulod">Te puede interesar</h5>
+    </section>
     <section class="boxes">
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (1).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (1).jpeg" alt="icono Resaltadores">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (2).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (2).jpeg" alt="icono Cuadernos">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (3).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (3).jpeg" alt="icono Pizarra">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (4).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (4).jpeg" alt="icono Organizadores">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (5).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (5).jpeg" alt="icono Tips">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (6).jpeg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (6).jpeg" alt="icono Lapicero">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (7).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (7).jpg" alt="icono Organizadores">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (8).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (8).jpg" alt="icono Organizadores">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (9).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (9).jpg" alt="icono Organizador">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (10).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (10).jpg" alt="icono Utiles">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (11).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (11).jpg" alt="icono Escritorio">
         </a>
       </div>
       <div class="mov">
         <a href="./secciones/comprar.html">
-          <img class="indexi" src="img/iconoindex (12).jpg" alt="iconoindex">
+          <img class="iconosProductos" src="img/iconoindex (12).jpg" alt="icono Utiles">
         </a>
       </div>
     </section>
   </main>
 
-  <footer id="pie">
-    <div>
-      <a href="https://api.whatsapp.com/send/?phone=5491144948424&text&app_absent=0">
-        <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="iconoWhatsapp">
-      </a>
+  <footer>
+    <div class="web-map">
+      <ul>
+        <li class="text">Visita nuestro local</li>
+        <li class="text">Lunes a viernes de 8 a 18hs.</li>
+      </ul>
+      <ul class="links">
+        <li class="text">ACERCA DE LIBSARC</li>
+        <li class="small-link">Privacidad y terminos</li>
+        <li class="small-link">Centro de ayuda</li>
+        <li class="small-link">Preferencias</li>
+      </ul>
     </div>
-    <div>
-      <a href="https://www.instagram.com/sol.rojaass/">
-        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="iconoInstagram">
-      </a>
+    <div class="social-icons">
+      <h5 class="text">Métodos de pago</h5>
+      <ul>
+        <li>
+          <a href="https://www.paypal.com/ar/home?locale.x=es_AR">
+            <img src="https://img.icons8.com/color/50/000000/paypal.png" alt="icono Paypal">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.mercadopago.com.ar/home">
+            <img src="https://img.icons8.com/color/60/000000/mercado-pago.png" alt="icono Mercadopago">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="https://img.icons8.com/fluency/60/000000/mastercard.png" alt="icono Mastercard">
+          </a>
+        </li>
+      </ul>
     </div>
-    <div>
-      <a href="https://twitter.com/SolRojaass">
-        <img src="https://img.icons8.com/color/50/000000/twitter--v1.png" alt="iconoTwitter">
-      </a>
+    <div class="social-icons">
+      <h5 class="text">Síguenos</h5>
+      <ul>
+        <li>
+          <a href="https://twitter.com/SolRojaass">
+            <img class="twiterfb" src="https://img.icons8.com/ios-filled/50/93fff6/twitter-circled--v1.png"alt="icono Twitter">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com">
+            <img class="twiterfb" src="https://img.icons8.com/glyph-neue/50/93fff6/facebook-new.png"alt="icono Facebook">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/sol.rojaass/">
+            <img class="insta" src="https://img.icons8.com/glyph-neue/50/93fff6/instagram-new.png"alt="icono Instagram">
+          </a>
+        </li>
+      </ul>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
-
 </body>
-
 </html>

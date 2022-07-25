@@ -1,5 +1,7 @@
 .formularioIframe {
     @extend .medidasFI;
+    background-color: $color-principal;
+    box-shadow: 2px 2px 2px rgba(46, 94, 91, 0.623);
 
     @media(min-width:600px) {
         padding: 20px;

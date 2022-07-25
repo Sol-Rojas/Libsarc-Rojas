@@ -2,17 +2,88 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    @media (min-width:928px) {
+        margin: 50px;
+    }
+
 
     .card {
-        margin: 32px;
+        margin: 12px;
         padding: 20px;
         background-color: #6fbdb97c;
-        h5 {
-            color: #194648
+        box-shadow: 2px 2px 2px rgba(46, 94, 91, 0.623);
+
+
+        @media(min-width:581px) {
+            width: 13rem;
         }
 
-        a{
+        @media (min-width:1332px) {
+            margin: 50px;
+        }
+
+        .card-img-top {
+            width: 160px;
+            height: 162px;
+        }
+
+        h5 {
+            cursor: pointer;
+            color: #194648;
+
+            &:hover {
+                text-shadow: 1px 1px 1px rgba(14, 255, 235, 0.664);
+            }
+        }
+
+        .precios {
+            color: #245b5fd2;
+        }
+
+        a {
             align-items: flex-end
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .btn-dark {
+            background-color: #559a9e;
+            border: none;
+            vertical-align: text-bottom;
+            box-shadow: 1px 1px 1px 1px rgb(104, 194, 197);
+
+            &:hover {
+                color: rgba(240, 248, 255, 0.527);
+            }
+        }
+    }
+
+    .card2 {
+
+        @media(max-width: 580px) {
+            width: 9rem;
+
+            .card-img-top {
+                width: 100px;
+                height: 90px;
+            }
+
+            h5 {
+                font-size: 0.7rem;
+            }
+
+            p {
+                font-size: 0.6rem;
+            }
+
+            a {
+                font-size: 0.7rem;
+            }
         }
     }
 
@@ -24,19 +95,4 @@
             transform: scale(1.1);
         }
     }
-}
-
-.pago {
-    display: flex;
-    align-items: center;
-    color: #194648;
-    background-color: $color-principal;
-    margin-bottom: 0;
-    h4{
-        font-size: 22px;
-        font-weight:lighter;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
 }

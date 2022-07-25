@@ -1,8 +1,48 @@
-.formularioIframe {
+.formulario {
     @extend .medidasFI;
     background-color: $color-principal;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(46, 94, 91, 0.623);
+
+
+    @media (max-width :767px) {
+        flex-direction: column;
+    }
 
     form {
         text-align: start;
+        color: floralwhite;
+
+        @media (min-width :767px) {
+            width: 65%;
+        }
+    }
+
+    .btn-dark {
+        background-color: #559a9e;
+        border: none;
+        box-shadow: 1px 1px 1px 1px #68c2c5;
+
+        &:hover {
+            color: rgba(240, 248, 255, 0.527);
+        }
+    }
+
+    .form-control {
+        border: none;
+        background: transparent;
+        border-bottom: solid 5px rgb(43, 145, 139);
+    }
+
+    .tituloContacto {
+        margin-bottom: 10px;
+
+        .contacto {
+            font-weight: bold;
+            color: #181818d2;
+            text-decoration: none;
+        }
     }
 }
